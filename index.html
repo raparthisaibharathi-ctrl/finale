@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Supercar Dashboard</title>
+  <!-- Link to chosen CSS (e.g., Soft UI, CoolAdmin, Material) -->
+  <link rel="stylesheet" href="path/to/dashboard.css" />
+</head>
+<body>
+  <div class="sidebar"><!-- Brand logo + nav items --></div>
+  <div class="main-panel">
+    <nav class="top-navbar">Supercar Dashboard</nav>
+    <div class="content">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Speed & RPM</div>
+            <div class="card-body">
+              <canvas id="speedGauge"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Engine Temp & Alerts</div>
+            <div class="card-body">
+              <div id="tempChart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more rows/cards for lap times, maintenance, stats -->
+    </div>
+  </div>
+  <!-- Link JS for charts (Chart.js, ApexCharts, etc.) -->
+  <script src="path/to/charts.js"></script>
+</body>
+</html>
